@@ -8,7 +8,8 @@ install_requires = [
     "cmake>=3.26",
     "Cython>=0.29",
     "decorator>=5.1",
-    "networkx>=3.1",
+    "networkit>=10.1",
+    "networkx",
     "numpy>=1.21",
     "pandas<2.0",
     "python-louvain>=0.16",
@@ -16,9 +17,6 @@ install_requires = [
     "scipy>=1.10.0",
     "tqdm",
 ]
-
-if not on_rtd:
-    install_requires.append("networkit>=10.1")
 
 setup_requires = ["cython", "numpy", "pytest-runner"]
 
