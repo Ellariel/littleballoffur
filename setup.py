@@ -11,7 +11,7 @@ install_requires = [
     "networkit>=10.1",
     "networkx",
     "numpy>=1.21",
-    "pandas<2.0",
+    "pandas",
     "python-louvain>=0.16",
     "six",
     "scipy>=1.10.0",
