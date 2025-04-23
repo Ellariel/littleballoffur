@@ -8,7 +8,7 @@ install_requires = [
     "cmake>=3.26",
     "Cython>=0.29",
     "decorator>=5.1",
-    "networkit>=10.1",
+    "networkit",
     "networkx",
     "numpy>=1.21",
     "pandas",
